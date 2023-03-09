@@ -51,7 +51,7 @@ open class TubeSpeedometer @JvmOverloads constructor(
     private fun init() {
         tubePaint.style = Paint.Style.STROKE
         tubeBacPaint.style = Paint.Style.STROKE
-        tubeBacPaint.color = 0xff757575.toInt()
+        tubeBacPaint.color = 0xff5c90c8.toInt()
         tubeOuterPaint.style = Paint.Style.STROKE
         tubeOuterPaint.color = 0xffffffff.toInt()
 
@@ -77,7 +77,7 @@ open class TubeSpeedometer @JvmOverloads constructor(
 
     private fun initDraw() {
         tubePaint.strokeWidth = speedometerWidth
-        tubePaint.color = Color.parseColor("#4f9bf7")
+        tubePaint.color = Color.parseColor("#5c90c8")
     }
 
     override fun onDraw(canvas: Canvas) {
